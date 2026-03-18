@@ -1,0 +1,6 @@
+{
+  "devices": [
+    {"id": "device_001", "key": "abc123"},
+    {"id": "device_002", "key": "xyz789"}
+  ]
+}
