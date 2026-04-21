@@ -1,34 +1,40 @@
-# 🔐 IoT Device Authentication & Threat Detection System
+# 🔐 Secure IoT Device Authentication using PKI & TLS
 
-## 🚀 Overview
-This project simulates a real-world IoT security system that authenticates devices and detects suspicious access attempts.
+## 📌 Overview
+This project demonstrates a secure IoT authentication system using **Public Key Infrastructure (PKI)** and **TLS**, replacing traditional password-based authentication.
 
-It demonstrates how unauthorized devices can be identified and flagged using behavioral monitoring.
-
----
-
-## 🧠 Features
-- Device authentication using ID and key  
-- Detection of unauthorized access attempts  
-- Alert system for repeated failed logins  
-- Continuous simulation of device connections  
+It is developed as part of my MSc dissertation, focusing on improving IoT security, scalability, and trust.
 
 ---
 
-## 💻 Technologies Used
-- Python  
-- JSON  
+## 🎯 Key Features
+- Certificate-based device authentication (X.509)
+- Secure communication using TLS
+- Detection of unauthorized devices
+- Logging of authentication attempts
+- Multi-device simulation
 
 ---
 
-## ⚙️ How It Works
-1. Devices attempt to connect using ID and key  
-2. System validates credentials from stored device list  
-3. Failed attempts are tracked  
-4. After multiple failures → alert is triggered  
+## 🛠️ Technologies Used
+- Python
+- OpenSSL
+- TLS / SSL
+- Socket Programming
+- JSON
+
+---
+
+## 🏗️ System Architecture
+- Certificate Authority (CA)
+- Secure Server (TLS-enabled)
+- IoT Device Clients
+- Authentication & Logging System
 
 ---
 
 ## ▶️ How to Run
+
+### 1. Generate Certificates
 ```bash
-python main.py
+python generate_certs.py
