@@ -38,3 +38,5 @@ It is developed as part of my MSc dissertation, focusing on improving IoT securi
 ### 1. Generate Certificates
 ```bash
 python generate_certs.py
+## 📄 Dissertation Report
+👉 [View Dissertation](docs/dissertation.pdf)
